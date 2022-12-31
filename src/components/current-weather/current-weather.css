@@ -3,41 +3,68 @@
   border-radius: 20px;
   box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
   color: #fff;
-  background-color: #333;
+  /* background-color: #333;
+   */
+   background: rgb(0,0,0);
+background: linear-gradient(43deg, rgba(0,0,0,1) 0%, rgba(59,59,59,1) 76%);
   margin: 20px auto 0 auto;
-  padding: 0 20px 20px 20px;
+  padding: 30px;
 }
 
-.top,
 .bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
+.location{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.citybg{
+  padding: 13px;
+  border-radius: 8px;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: rgb(100, 100, 100);
+  background: rgb(36, 36, 36);
+}
 .city {
-  font-weight: 600;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 1;
   margin: 0;
   letter-spacing: 1px;
 }
-
+.country{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  margin: 0;
+  letter-spacing: 1px;
+}
+.condition{
+  margin-left: auto;
+  margin-right: auto;  
+  text-align: center;
+}
 .weather-description {
   font-weight: 400;
   font-size: 14px;
   line-height: 1;
   margin: 3;
+  margin-top: -5px;
   text-transform: capitalize;
 }
 
 .weather-icon {
-  width: 100px;
+  width: 60%;
+  margin-top: -19px;
 }
 
 .temperature {
-  font-weight: 600;
-  font-size: 70px;
+  font-weight: 400;
+  font-size: 60px;
   width: auto;
   letter-spacing: -5px;
   margin: 10px 0;
@@ -47,23 +74,28 @@
 
 .details {
   width: 100%;
-  padding-left: 20px;
+  padding: 20px;
+  padding-left: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
-
+.weather-details-icon{
+  width: 18px;
+  margin-left: 2px;
+  margin-top: 6px;
+}
+.weather-details-icon-big{
+  width: 25px;
+}
 .parameter-row {
   display: flex;
   justify-content: space-between;
   margin-top: 8px;
+  align-items: center;
 }
-
-.parameter-label {
-  text-align: left;
-  font-weight: 400;
-  font-size: 12px;
-}
-
 .parameter-value {
-  text-align: right;
+  text-align: left  ;
   font-weight: 600;
   font-size: 12px;
 }
