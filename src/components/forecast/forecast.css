@@ -6,10 +6,13 @@
 }
 
 .daily-item {
-  /* background-color: #555555; */
-  background: rgb(85,85,85);
-background: linear-gradient(236deg, rgba(85,85,85,1) 0%, rgba(108,108,108,1) 70%);
-box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
+  background: rgb(85, 85, 85);
+  background: linear-gradient(
+    236deg,
+    rgba(85, 85, 85, 1) 0%,
+    rgba(108, 108, 108, 1) 70%
+  );
+  box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
   border-radius: 15px;
   height: 40px;
   margin: 5px;
@@ -19,7 +22,7 @@ box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
   font-size: 14px;
   padding: 5px 20px;
 }
-.day{
+.day {
   color: c5c5c5;
 }
 .icon-small {
